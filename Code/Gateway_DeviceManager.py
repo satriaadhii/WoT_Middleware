@@ -12,7 +12,7 @@ import threading
 pub = mqtt_client.Client("Middleware Gateway")
 
 # Connecting client to broker
-pub.connect("middleware.hayolo.tech", port=1883)
+pub.connect("INSERT BROKER HOST", port=1883)
 
 # Function for handle sensor device
 def heart_rate( devin, uuidin, topic):
